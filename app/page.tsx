@@ -54,16 +54,16 @@ const downloadPDF = () => {
             <h2>Tech Stack</h2>
             <div class="tech-grid">
               <div class="tech-item">
-                <strong>Frontend:</strong> React (Next.js), Vue (Nuxt.js), Flutter
+                <strong>Backend:</strong> Python, Fastapi, Django
               </div>
               <div class="tech-item">
-                <strong>Backend:</strong> Laravel (PHP MVC), Node.js
+                <strong>Web scraping:</strong> Python, playwright, selenium
               </div>
               <div class="tech-item">
-                <strong>Cross-platform:</strong> Expo (React Native), Tauri, Electron
+                <strong>Cross-platform:</strong> Dart, Flutter
               </div>
               <div class="tech-item">
-                <strong>Databases:</strong> MySQL, PostgreSQL, MongoDB, Firebase, Supabase
+                <strong>Databases:</strong> MySQL, PostgreSQL, MongoDB, Sqlite
               </div>
             </div>
           </div>
