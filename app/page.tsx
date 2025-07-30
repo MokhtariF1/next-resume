@@ -1,6 +1,6 @@
 "use client"
 
-import { Mail, Phone, MapPin, Github, Linkedin, Download, ExternalLink, Sparkles, Send } from "lucide-react"
+import { Mail, Phone, MapPin, Github, Download, ExternalLink, Sparkles, Send } from "lucide-react"
 import { useState, useEffect } from "react"
 
 const downloadPDF = () => {
@@ -41,7 +41,7 @@ const downloadPDF = () => {
               <div class="contact-item">📱 +98 9039484577</div>
               <div class="contact-item">📍 Omidiyeh, Iran</div>
               <div class="contact-item">🔗 github.com/code3-dev</div>
-              <div class="contact-item">💼 linkedin.com/in/hossein-pira-748056278</div>
+              <div class="contact-item">✉️ t.me/Ho3einMokhtari</div>
             </div>
           </div>
 
@@ -170,8 +170,18 @@ export default function Resume() {
       href: "mailto:ho3einmokhtariofficial@gmail.com",
       color: "from-red-500 to-pink-500",
     },
-    { icon: Phone, label: "+98 9386083520", href: "tel:+989386083520", color: "from-green-500 to-emerald-500" },
-    { icon: MapPin, label: "Yazd, Iran", href: "#", color: "from-blue-500 to-cyan-500" },
+    {
+      icon: Phone,
+      label: "+98 9386083520",
+      href: "tel:+989386083520",
+      color: "from-green-500 to-emerald-500",
+    },
+    {
+      icon: MapPin,
+      label: "Yazd, Iran",
+      href: "#",
+      color: "from-blue-500 to-cyan-500",
+    },
     {
       icon: Github,
       label: "github.com/Ho3einMokhtari",
@@ -210,6 +220,7 @@ export default function Resume() {
         <div className="absolute top-1/4 left-1/4 w-32 h-32 md:w-72 md:h-72 bg-gradient-to-r from-pink-400/10 to-red-600/10 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute bottom-1/4 right-1/4 w-32 h-32 md:w-80 md:h-80 bg-gradient-to-r from-cyan-400/10 to-blue-600/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
       </div>
+
 
       {/* Floating Particles - Reduced on mobile */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
