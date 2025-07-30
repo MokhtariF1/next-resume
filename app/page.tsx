@@ -31,7 +31,7 @@ const downloadPDF = () => {
         <body>
           <div class="header">
             <h1>Hossein Mokhtari</h1>
-            <p><strong>Full Stack Developer</strong></p>
+            <p><strong>Backend Developer</strong></p>
           </div>
           
           <div class="section">
@@ -71,19 +71,17 @@ const downloadPDF = () => {
           <div class="section">
             <h2>Core Skills</h2>
             <div class="skills">
+              <span class="skill">Python</span>
+              <span class="skill">FastAPI</span>
+              <span class="skill">Telegram Bot</span>
+              <span class="skill">Playwright</span>
               <span class="skill">Flutter</span>
-              <span class="skill">Laravel</span>
-              <span class="skill">NextJS</span>
-              <span class="skill">React</span>
-              <span class="skill">NuxtJS</span>
-              <span class="skill">Vue</span>
-              <span class="skill">NodeJS</span>
-              <span class="skill">Expo</span>
-              <span class="skill">Tauri</span>
-              <span class="skill">Electron</span>
-              <span class="skill">TypeScript</span>
+              <span class="skill">Dart</span>
+              <span class="skill">WordPress</span>
+              <span class="skill">HTML</span>
+              <span class="skill">CSS</span>
             </div>
-          </div>
+
 
           <div class="section">
             <h2>What I Build</h2>
