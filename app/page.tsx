@@ -11,7 +11,7 @@ const downloadPDF = () => {
       <!DOCTYPE html>
       <html>
         <head>
-          <title>Hossein Pira - Resume</title>
+          <title>Hossein Mokhtari - Resume</title>
           <style>
             body { font-family: Arial, sans-serif; margin: 20px; color: #333; }
             .header { text-align: center; margin-bottom: 30px; }
@@ -30,14 +30,14 @@ const downloadPDF = () => {
         </head>
         <body>
           <div class="header">
-            <h1>Hossein Pira</h1>
+            <h1>Hossein Mokhtari</h1>
             <p><strong>Full Stack Developer</strong></p>
           </div>
           
           <div class="section">
             <h2>Contact Information</h2>
             <div class="contact-info">
-              <div class="contact-item">📧 h3dev.pira@gmail.com</div>
+              <div class="contact-item">📧 ho3einmokhtariofficial@gmail.com</div>
               <div class="contact-item">📱 +98 9039484577</div>
               <div class="contact-item">📍 Omidiyeh, Iran</div>
               <div class="contact-item">🔗 github.com/code3-dev</div>
@@ -47,7 +47,7 @@ const downloadPDF = () => {
 
           <div class="section">
             <h2>About Me</h2>
-            <p>Hi, I'm Hossein Pira — a full-stack developer passionate about building fast, modern applications with clean and maintainable code. I specialize in both web and cross-platform app development, using a wide range of modern technologies to create exceptional user experiences.</p>
+            <p>Hi, I'm Hossein Mokhtari — a backend developer focused on building scalable APIs and advanced Telegram bots. I specialize in automating workflows and delivering reliable backend solutions with clean and maintainable code.</p>
           </div>
 
           <div class="section">
@@ -262,12 +262,12 @@ export default function Resume() {
                 <div className="text-center">
                   <div className="relative mb-4 md:mb-6">
                     <div className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 mx-auto rounded-full overflow-hidden border-4 border-white/30 shadow-2xl group-hover:scale-105 transition-transform duration-500">
-                      <img src="/hossein-photo.jpg" alt="Hossein Pira" className="w-full h-full object-cover" />
+                      <img src="/hossein-photo.jpg" alt="Hossein Mokhtari" className="w-full h-full object-cover" />
                     </div>
                     <div className="absolute -top-1 -right-1 md:-top-2 md:-right-2 w-4 h-4 md:w-6 md:h-6 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full border-2 border-white animate-pulse"></div>
                   </div>
                   <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-2 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-                    Hossein Pira
+                    Hossein Mokhtari
                   </h1>
                   <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 backdrop-blur-sm border border-white/20 rounded-full px-3 py-1 md:px-4 md:py-2 mb-3 md:mb-4">
                     <Sparkles size={14} className="md:w-4 md:h-4 text-yellow-400 animate-pulse" />
@@ -362,9 +362,7 @@ export default function Resume() {
                   </span>
                 </h2>
                 <p className="text-gray-300 leading-relaxed text-sm sm:text-base md:text-lg">
-                  Hi, I'm Hossein Pira — a full-stack developer passionate about building fast, modern applications with
-                  clean and maintainable code. I specialize in both web and cross-platform app development, using a wide
-                  range of modern technologies to create exceptional user experiences.
+                  Hi, I'm Hossein Mokhtari — a backend developer focused on building scalable APIs and advanced Telegram bots. I specialize in automating workflows and delivering reliable backend solutions with clean and maintainable code.
                 </p>
               </div>
 
