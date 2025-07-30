@@ -1,6 +1,6 @@
 "use client"
 
-import { Mail, Phone, MapPin, Github, Linkedin, Download, ExternalLink, Sparkles } from "lucide-react"
+import { Mail, Phone, MapPin, Github, Linkedin, Download, ExternalLink, Sparkles, Send } from "lucide-react"
 import { useState, useEffect } from "react"
 
 const downloadPDF = () => {
@@ -89,10 +89,9 @@ const downloadPDF = () => {
             <h2>What I Build</h2>
             <ul class="build-list">
               <li>Android Applications</li>
-              <li>Windows Applications</li>
-              <li>Linux Applications</li>
-              <li>Full-featured Web Frontends</li>
-              <li>High-performance Backend APIs</li>
+              <li>Telegram Bots</li>
+              <li>Web Scraping Applications</li>
+              <li>Backend APIs</li>
             </ul>
           </div>
 
@@ -151,49 +150,46 @@ export default function Resume() {
   }, [isMobile])
 
   const skills = [
+    "Python",
+    "TelegramBot",
+    "Fastapi",
+    "Playwright",
     "Flutter",
-    "Laravel",
-    "NextJS",
-    "React",
-    "NuxtJS",
-    "Vue",
-    "NodeJS",
-    "Expo",
-    "Tauri",
-    "Electron",
-    "TypeScript",
+    "dart",
+    "Wordpress",
+    "html",
+    "css",
   ]
 
-  const databases = ["MySQL", "PostgreSQL", "MongoDB", "Firebase", "Supabase"]
+  const databases = ["MySQL", "PostgreSQL", "MongoDB", "Sqlite"]
 
   const contactLinks = [
     {
       icon: Mail,
-      label: "h3dev.pira@gmail.com",
-      href: "mailto:h3dev.pira@gmail.com",
+      label: "ho3einmokhtariofficial@gmail.com",
+      href: "mailto:ho3einmokhtariofficial@gmail.com",
       color: "from-red-500 to-pink-500",
     },
-    { icon: Phone, label: "+98 9039484577", href: "tel:+989039484577", color: "from-green-500 to-emerald-500" },
-    { icon: MapPin, label: "Omidiyeh, Iran", href: "#", color: "from-blue-500 to-cyan-500" },
+    { icon: Phone, label: "+98 9386083520", href: "tel:+989386083520", color: "from-green-500 to-emerald-500" },
+    { icon: MapPin, label: "Yazd, Iran", href: "#", color: "from-blue-500 to-cyan-500" },
     {
       icon: Github,
-      label: "github.com/code3-dev",
-      href: "https://github.com/code3-dev",
+      label: "github.com/Ho3einMokhtari",
+      href: "https://github.com/Ho3einMokhtari",
       color: "from-gray-700 to-gray-900",
     },
     {
-      icon: Linkedin,
-      label: "linkedin.com/in/hossein-pira-748056278",
-      href: "https://www.linkedin.com/in/hossein-pira-748056278",
+      icon: Send,
+      label: "t.me/Ho3einMokhtari",
+      href: "https://t.me/Ho3einMokhtari",
       color: "from-blue-600 to-blue-800",
     },
   ]
 
   const buildItems = [
     { title: "Android Applications", icon: "📱", delay: "0ms" },
-    { title: "Windows Applications", icon: "🖥️", delay: "100ms" },
-    { title: "Linux Applications", icon: "🐧", delay: "200ms" },
-    { title: "Web Frontends", icon: "🌐", delay: "300ms" },
+    { title: "Telegram Bots", icon: "🖥️", delay: "100ms" },
+    { title: "Web Scraping", icon: "🌐", delay: "300ms" },
     { title: "Backend APIs", icon: "⚡", delay: "400ms" },
   ]
 
