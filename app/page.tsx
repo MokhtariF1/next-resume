@@ -11,7 +11,7 @@ const downloadPDF = () => {
       <!DOCTYPE html>
       <html>
         <head>
-          <title>Hossein Mokhtari - Resume</title>
+          <title>Hossein Mokhtari</title>
           <style>
             body { font-family: Arial, sans-serif; margin: 20px; color: #333; }
             .header { text-align: center; margin-bottom: 30px; }
