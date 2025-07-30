@@ -269,7 +269,7 @@ export default function Resume() {
                   </h1>
                   <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 backdrop-blur-sm border border-white/20 rounded-full px-3 py-1 md:px-4 md:py-2 mb-3 md:mb-4">
                     <Sparkles size={14} className="md:w-4 md:h-4 text-yellow-400 animate-pulse" />
-                    <span className="text-blue-200 font-medium text-sm md:text-base">Full Stack Developer</span>
+                    <span className="text-blue-200 font-medium text-sm md:text-base">Python developer</span>
                   </div>
                   <p className="text-gray-300 text-xs sm:text-sm leading-relaxed">
                     Passionate about building fast, modern applications with clean and maintainable code.
@@ -375,19 +375,19 @@ export default function Resume() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6">
                   {[
                     {
-                      title: "Frontend",
-                      tech: "React (Next.js), Vue (Nuxt.js), Flutter",
+                      title: "Backend",
+                      tech: "Python, Fastapi, Django",
                       color: "from-blue-500 to-cyan-500",
                     },
-                    { title: "Backend", tech: "Laravel (PHP MVC), Node.js", color: "from-green-500 to-emerald-500" },
+                    { title: "Web Scraping", tech: "Python, Playwright, selenium", color: "from-green-500 to-emerald-500" },
                     {
                       title: "Cross-platform",
-                      tech: "Expo (React Native), Tauri, Electron",
+                      tech: "Dart, Flutter",
                       color: "from-purple-500 to-pink-500",
                     },
                     {
                       title: "Databases",
-                      tech: "MySQL, PostgreSQL, MongoDB, Firebase, Supabase",
+                      tech: "MySQL, PostgreSQL, MongoDB, Sqlite",
                       color: "from-orange-500 to-red-500",
                     },
                   ].map((item, index) => (
